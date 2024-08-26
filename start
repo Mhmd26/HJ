@@ -1,5 +1,12 @@
 git clone https://github.com/Mhmd26/JCR Joker
 cd Joker
+apt-get update && apt-get upgrade -y
+apt-get install git curl python3-pip ffmpeg -y
+pip3 install -U pip
+python3 -m pip install --upgrade pip
+curl -sL https://deb.nodesource.com/setup_16.x | bash -
+apt-get install -y nodejs
+npm i -g npm@8.19.4
 pip3 install --upgrade pip
 pip3 install -U -r requirements.txt
 python3 -m JoKeRUB
