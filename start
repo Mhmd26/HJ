@@ -6,6 +6,6 @@ pip3 install -U pip
 python3 -m pip install --upgrade pip
 curl -sL https://deb.nodesource.com/setup_16.x | bash -
 apt-get install -y nodejs
-npm i -g npm@8.19.4
+nvm install --lts
 pip3 install --upgrade pip
 python3 -m JoKeRUB
