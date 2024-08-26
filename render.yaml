@@ -9,7 +9,7 @@ services:
     name: Joker
     env: python
     buildCommand: pip install -U -r requirements.txt
-    startCommand: python3 ser.py & python3 -m JoKeRUB
+    startCommand: python3 ser.py & bash start
     region: frankfurt
     envVars:
       - key: APP_ID 
@@ -23,7 +23,7 @@ services:
       - key: TG_BOT_TOKEN
         sync: false
       - key: PYTHON_VERSION
-        value: 3.12.2
+        value: 3.11
       - key: TZ
         value: Asia/Baghdad 
       - key: DATABASE_URL
